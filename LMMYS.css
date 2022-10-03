@@ -1,0 +1,108 @@
+body{
+background-color: #ffffff;
+}
+.container{
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#81fcc0;
+}
+nav .logo{
+    font-size: 42px;
+    font-style: bolder;
+    color: #1EB51D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #337d1a;
+    font-style: bolder;
+    border-radius: 30px;
+    transition: 0.6 s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a:hover{
+    background-color: #30F2D8;
+}
+h1{
+    color: #20E23E;
+    font-size:xxx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+header{
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    text-align-last: left;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: #23570C;
+}
+h2{
+    color:#3AAD7B;
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+img {
+    width: 600px;
+    padding-left: 250px;
+    padding-right: 15px;
+    float: left;
+}
+p{
+    color: #23570C;
+    padding-right: 250px;
+    text-align-last: left;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    font-size: large;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align-last: left;
+}
+main{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color:#3AAD7B;
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cartu{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #81fcc0;
+    width: 1300px;  
+}
+footer{
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
